@@ -1,0 +1,31 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Reruby",
+        "submenu": [
+          {
+            "label": "Rename class",
+            "command": "atom-reruby:rename-class"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-reruby",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-reruby:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
